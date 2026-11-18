@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#15181b">
+  <title>Connexion · Espace EQUATION B&amp;C</title>
+  <link rel="icon" href="static/favicon.svg" type="image/svg+xml">
+  
+  <link rel="apple-touch-icon" href="static/apple-touch-icon.png">
+  <link rel="stylesheet" href="static/app.css">
+  <script src="static/app.js" defer></script>
+</head>
+<body class="demo sans-menu">
+  <header class="barre">
+    <a class="logo" href="index.html"><img src="static/favicon.svg" alt="" width="34" height="33"><span><b>EQUATION</b><small>Espace B&amp;C</small></span></a>
+    
+  </header>
+  
+  <main class="contenu" id="contenu">
+    
+    
+  <div class="connexion">
+    <div class="carte">
+      <h1>Connexion</h1>
+      <p class="discret">Espace réservé aux gérants d’EQUATION B&amp;C.</p>
+      
+      <form method="post" action="/connexion" data-demo class="formulaire">
+        <input type="hidden" name="suite" value="/">
+        <label>Adresse e-mail<input type="email" name="email" value="" autocomplete="username" required autofocus></label>
+        <label>Mot de passe<input type="password" name="mot_de_passe" autocomplete="current-password" required></label>
+        <button class="bouton bouton--plein" type="submit">Se connecter</button>
+      </form>
+      <p class="discret centre"><a href="mot-de-passe-oublie.html">Mot de passe oublié ?</a></p>
+    </div>
+  </div>
+  </main>
+  
+<div class="bandeau-demo" role="note">Version de démonstration · données fictives · les actions sont désactivées</div>
+  <div class="toast-demo" role="status" aria-live="polite"></div>
+  <script src="static/demo.js"></script>
+</body>
+</html>
